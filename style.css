@@ -1,0 +1,14 @@
+:root{
+   --font-fraunces: url(assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf);
+   --font-manrope: url(assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
