@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Frontend Mentor | Workit landing page</title>
 </head>
 
@@ -13,7 +14,7 @@
   <header class="head_content">
     <section class="heading">
       <img src="assets/images/logo-light.svg" alt="head logo" class="head_logo">
-      <p class="head-text">Apply for access</p>
+      <a class="head-text" href="#Apply_for_access">Apply for access</a>
     </section>
   
     <section class="centered_content">
@@ -34,33 +35,53 @@
     </div>
   </header>
 
-  <main class="content">
-    <section class="main_flex 1">
-      <h2>1</h2>
-      <h3>Actionable insights</h3>
-      <p>
-        Optimize your products, improve customer satisfaction and stay ahead of the competition 
-        with our product data analytics.
-      </p>
-    </section>
+  <main class="main">
+    <nav class="content">
+      <section class="main_flex 1">
+        <div>
+          <h2>1</h2>
+        </div>
+        
+        <div>
+          <h3>Actionable insights</h3>
+          <p>
+            Optimize your products, improve customer satisfaction and stay ahead of the competition 
+            with our product data analytics.
+          </p>
+        </div>
+       
+      </section>
 
-    <section class="main_flex 2">
-      <h2>2</h2>
-      <h3>Data-driven decisions</h3>
-      <p>  
-        Make data-driven decisions with our product data analytics. Our AI-generated reports help 
-        you unlock insights hidden in your product data.
-      </p>
-    </section>
+      <section class="main_flex 2">
+        <div>
+          <h2>2</h2>
+        </div>
 
-    <section class="main_flex 3">
-      <h2>3</h2>
-      <h3>Always affordable</h3>
-      <p>
-        Always affordable pricing that scales with your business. Get top-quality product data 
-        analytics services without hidden costs or unexpected fees.
-      </p>
-    </section>
+        <div>
+          <h3>Data-driven decisions</h3>
+          <p>  
+            Make data-driven decisions with our product data analytics. Our AI-generated reports help 
+            you unlock insights hidden in your product data.
+          </p>
+        </div>        
+      </section>
+
+      <section class="main_flex 3">
+        <div>
+          <h2>3</h2>
+        </div>
+        <div>
+          <h3>Always affordable</h3>
+          <p>
+            Always affordable pricing that scales with your business. Get top-quality product data 
+            analytics services without hidden costs or unexpected fees.
+          </p>
+        </div>
+      </section>
+    </nav>
+    <div class="main_bottom">
+      
+    </div>
   </main>
 
   <footer class="footer">
@@ -85,12 +106,17 @@
         <img src="assets/images/logo-dark.svg" alt="footer logo">
       </div>
       <div class="links">
-        <img src="assets/images/icon-facebook.svg" alt="icon-facebook">
-        <img src="assets/images/icon-twitter.svg" alt="icon-twitter">
-        <img src="assets/images/icon-instagram.svg" alt="icon-instagram">
+        <a href="#facebook">
+          <i class="fa fa-facebook"></i>
+        </a>
+        <a href="#twitter">
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a href="#instagram">
+          <i class="fa fa-instagram"></i>
+        </a>
       </div>
     </section>
-
   </footer>
 </body>
 </html>
